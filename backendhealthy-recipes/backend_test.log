@@ -1,0 +1,85 @@
+Starting backend tests...
+Registering a new user...
+User registered successfully.
+Logging in...
+Login successful. Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxOTE0ODkwMiwianRpIjoiZDk3YzBhZjgtMjRiZS00NDdjLWIwMWUtY2VkNjRkMzM5MTk4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6NCwibmJmIjoxNzE5MTQ4OTAyLCJjc3JmIjoiOWE0ZmE2ZWYtNmY5NS00NzZmLWJhYjAtMGU0ZWMwOGVmNmEwIiwiZXhwIjoxNzE5MTQ5ODAyfQ.cpb09c8IjMRWs6ulUQlDhc_hlmdDwntS8849sXqAOis
+Fetching user profile...
+Profile response: {
+  "allergies": null,
+  "dietary_restrictions": null
+}
+Updating user profile...
+User profile updated successfully.
+Submitting a recipe rating...
+Rating submitted successfully.
+Fetching user ratings...
+Ratings response: [
+  {
+    "rating": 4,
+    "recipe_id": 123
+  }
+]
+Fetching personalized recommendations...
+Recommendations response: [
+  {
+    "id": 715415,
+    "image": "https://img.spoonacular.com/recipes/715415-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Red Lentil Soup with Chicken and Turnips"
+  },
+  {
+    "id": 716406,
+    "image": "https://img.spoonacular.com/recipes/716406-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Asparagus and Pea Soup: Real Convenience Food"
+  },
+  {
+    "id": 644387,
+    "image": "https://img.spoonacular.com/recipes/644387-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Garlicky Kale"
+  },
+  {
+    "id": 715446,
+    "image": "https://img.spoonacular.com/recipes/715446-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Slow Cooker Beef Stew"
+  },
+  {
+    "id": 782601,
+    "image": "https://img.spoonacular.com/recipes/782601-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Red Kidney Bean Jambalaya"
+  },
+  {
+    "id": 716426,
+    "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice"
+  },
+  {
+    "id": 716004,
+    "image": "https://img.spoonacular.com/recipes/716004-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries"
+  },
+  {
+    "id": 716627,
+    "image": "https://img.spoonacular.com/recipes/716627-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Easy Homemade Rice and Beans"
+  },
+  {
+    "id": 664147,
+    "image": "https://img.spoonacular.com/recipes/664147-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Tuscan White Bean Soup with Olive Oil and Rosemary"
+  },
+  {
+    "id": 640941,
+    "image": "https://img.spoonacular.com/recipes/640941-312x231.jpg",
+    "imageType": "jpg",
+    "title": "Crunchy Brussels Sprouts Side Dish"
+  }
+]
+Backend tests completed.
