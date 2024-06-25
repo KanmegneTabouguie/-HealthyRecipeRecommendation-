@@ -14,7 +14,7 @@ This is a Flask-based backend API for a Healthy Recipe Recommendation system. It
 1. Clone the repository:
     
     ```
-    git clone <repository-url>
+    git clone https://github.com/KanmegneTabouguie/-HealthyRecipeRecommendation-.git
     cd healthy-recipe-backend
     
     ```
